@@ -1,0 +1,96 @@
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\appsettings.json
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\libman.json
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.exe
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.deps.json
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.runtimeconfig.json
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.runtimeconfig.dev.json
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\ref\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.pdb
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.Views.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.Views.pdb
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\EPPlus.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\EPPlus.Interfaces.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.csproj.AssemblyReference.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.AssemblyInfoInputs.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.AssemblyInfo.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorAssemblyInfo.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorAssemblyInfo.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\staticwebassets\AsteroidExplorer.StaticWebAssets.Manifest.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\staticwebassets\AsteroidExplorer.StaticWebAssets.xml
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\scopedcss\bundle\AsteroidExplorer.styles.css
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.TagHelpers.input.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.TagHelpers.output.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorCoreGenerate.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Home\Apod.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Home\Asteroids.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorTargetAssemblyInfo.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorTargetAssemblyInfo.cs
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.Views.pdb
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.csproj.CopyComplete
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\ref\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.pdb
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.genruntimeconfig.cache
+C:\Users\Dan\Desktop\AUBG\SPRING '25\COS 4091\Georgieva_Daniela_DT\AsteroidExplorer\bin\Debug\net5.0\EPPlus.System.Drawing.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\appsettings.json
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\libman.json
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.exe
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.deps.json
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.runtimeconfig.json
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.runtimeconfig.dev.json
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\ref\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.pdb
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.Views.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\AsteroidExplorer.Views.pdb
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\EPPlus.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\EPPlus.Interfaces.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\EPPlus.System.Drawing.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.csproj.AssemblyReference.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.AssemblyInfoInputs.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.AssemblyInfo.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.csproj.CoreCompileInputs.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorAssemblyInfo.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorAssemblyInfo.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\staticwebassets\AsteroidExplorer.StaticWebAssets.Manifest.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\staticwebassets\AsteroidExplorer.StaticWebAssets.xml
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\scopedcss\bundle\AsteroidExplorer.styles.css
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.TagHelpers.input.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.TagHelpers.output.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorCoreGenerate.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Home\Apod.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Home\Asteroids.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorTargetAssemblyInfo.cache
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.RazorTargetAssemblyInfo.cs
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.Views.pdb
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.csproj.CopyComplete
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\ref\AsteroidExplorer.dll
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.pdb
+C:\Users\Dan\Desktop\MSC\AsteroidExplorer\obj\Debug\net5.0\AsteroidExplorer.genruntimeconfig.cache
