@@ -1,0 +1,126 @@
+@model AsteroidExplorer.Models.Apod
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Astronomy Picture of the Day";
+}
+
+<div class="container">
+    <h2 class="mb-4">Astronomy Picture of the Day</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Error
+        </div>
+    }
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="get" class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="date">Select Date</label>
+                        <input type="date" class="form-control" id="date" name="date" 
+                               value="@Model.Date.ToString("yyyy-MM-dd")" max="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary">View</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @if (Model != null && !string.IsNullOrEmpty(Model.Title))
+    {
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">@Model.Title</h3>
+                @if (!string.IsNullOrEmpty(Model.Copyright))
+                {
+                    <p class="text-muted">Copyright: @Model.Copyright</p>
+                }
+                <p class="card-text">@Model.Explanation</p>
+                
+                @if (Model.MediaType?.ToLower() == "image")
+                {
+                    <div class="text-center">
+                        <img src="@Model.Url" alt="@Model.Title" class="img-fluid" style="max-width: 100%; height: auto;" />
+                        @if (!string.IsNullOrEmpty(Model.HdUrl))
+                        {
+                            <div class="mt-2">
+                                <a href="@Model.HdUrl" target="_blank" class="btn btn-secondary">View HD Version</a>
+                            </div>
+                        }
+                    </div>
+                }
+                else if (Model.MediaType?.ToLower() == "video")
+                {
+                    <div class="text-center">
+                        @{
+                            var videoUrl = Model.Url;
+                            <div class="alert alert-info mb-3">
+                                <p><strong>Debug Info:</strong></p>
+                                <p>Media Type: @Model.MediaType</p>
+                                <p>Video URL: @videoUrl</p>
+                            </div>
+                            
+                            if (!string.IsNullOrEmpty(videoUrl))
+                            {
+                                <div class="ratio ratio-16x9 mb-3">
+                                    <video controls class="img-fluid" style="max-width: 100%; height: auto;">
+                                        <source src="@videoUrl" type="video/mp4">
+                                        <source src="@videoUrl" type="video/webm">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                                <div class="mt-2">
+                                    <a href="@videoUrl" target="_blank" class="btn btn-primary">Open Video in New Tab</a>
+                                    <a href="https://apod.nasa.gov/apod/ap@(Model.Date.ToString("yyMMdd")).html" target="_blank" class="btn btn-secondary">View on NASA's Website</a>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="alert alert-warning">
+                                    <p>No video URL available. You can view this APOD on NASA's website:</p>
+                                    <a href="https://apod.nasa.gov/apod/ap@(Model.Date.ToString("yyMMdd")).html" target="_blank" class="btn btn-primary">View on NASA's Website</a>
+                                </div>
+                            }
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-info">
+                        <h4 class="alert-heading">Media Information</h4>
+                        <p>Media Type: @Model.MediaType</p>
+                        <p>This APOD contains special content that needs to be viewed on NASA's website.</p>
+                        <hr>
+                        <p class="mb-0">
+                            <a href="https://apod.nasa.gov/apod/ap@(Model.Date.ToString("yyMMdd")).html" target="_blank" class="btn btn-primary">
+                                View on NASA's APOD Website
+                            </a>
+                        </p>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            console.log('APOD page loaded');
+            console.log('Media Type:', '@Model.MediaType');
+            console.log('URL:', '@Model.Url');
+            console.log('HD URL:', '@Model.HdUrl');
+            console.log('Service Version:', '@Model.ServiceVersion');
+
+            // prevents selecting future dates
+            var today = new Date().toISOString().split('T')[0];
+            $('#date').attr('max', today);
+        });
+    </script>
+} 

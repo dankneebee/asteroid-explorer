@@ -1,0 +1,38 @@
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Asteroid Explorer</h1>
+    <p class="lead">Explore near-Earth asteroids and discover the Astronomy Picture of the Day</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Near-Earth Asteroids</h5>
+                <p class="card-text">Browse through a list of near-Earth asteroids, view their details, and export the data to Excel format.</p>
+                <a href="@Url.Action("Asteroids", "Home")" class="btn btn-primary">View Asteroids</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">Astronomy Picture of the Day</h5>
+                <p class="card-text">Discover NASA's Astronomy Picture of the Day and explore the wonders of space through stunning imagery.</p>
+                <a href="@Url.Action("Apod", "Home")" class="btn btn-primary">View APOD</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            console.log('Home page loaded');
+        });
+    </script>
+} 

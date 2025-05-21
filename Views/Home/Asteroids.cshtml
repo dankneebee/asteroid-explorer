@@ -1,0 +1,122 @@
+@model List<AsteroidExplorer.Models.Asteroid>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Near Earth Asteroids";
+}
+
+<div class="container">
+    <h2 class="mb-4">Near Earth Asteroids</h2>
+
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Error
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(TempData["Error"]?.ToString()))
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <form method="get" class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" class="form-control" id="startDate" name="startDate" 
+                               value="@ViewBag.StartDate?.ToString("yyyy-MM-dd")" max="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="endDate">End Date</label>
+                        <input type="date" class="form-control" id="endDate" name="endDate" 
+                               value="@ViewBag.EndDate?.ToString("yyyy-MM-dd")" max="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-end gap-2">
+                    <button type="submit" class="btn btn-primary" style="height: 38px;">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                    @if (Model != null && Model.Any())
+                    {
+                        <a href="@Url.Action("ExportAsteroids", "Home", new { startDate = ViewBag.StartDate?.ToString("yyyy-MM-dd"), endDate = ViewBag.EndDate?.ToString("yyyy-MM-dd") })" 
+                           class="btn btn-success" style="height: 38px;">
+                            <i class="fas fa-file-excel"></i> Export to Excel
+                        </a>
+                    }
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Estimated Diameter (km)</th>
+                        <th>Potentially Hazardous</th>
+                        <th>Close Approach Date</th>
+                        <th>Miss Distance (km)</th>
+                        <th>Orbiting Body</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var asteroid in Model)
+                    {
+                        <tr>
+                            <td>@asteroid.Name</td>
+                            <td>@asteroid.EstimatedDiameter.ToString("F2")</td>
+                            <td>@(asteroid.IsPotentiallyHazardous ? "Yes" : "No")</td>
+                            <td>@asteroid.CloseApproachDate.ToString("yyyy-MM-dd")</td>
+                            <td>@asteroid.MissDistance.ToString("N0")</td>
+                            <td>@asteroid.OrbitingBody</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else if (Model != null)
+    {
+        <div class="alert alert-info">
+            No asteroids found for the selected date range.
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            // prevents selecting future dates
+            var today = new Date().toISOString().split('T')[0];
+            $('#startDate, #endDate').attr('max', today);
+
+            // validates date range
+            $('#startDate, #endDate').change(function() {
+                var startDate = new Date($('#startDate').val());
+                var endDate = new Date($('#endDate').val());
+                
+                if (endDate < startDate) {
+                    alert('End date cannot be earlier than start date');
+                    $('#endDate').val($('#startDate').val());
+                }
+                
+                // checks if date range is more than 7 days
+                var diffTime = Math.abs(endDate - startDate);
+                var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+                if (diffDays > 7) {
+                    alert('Date range cannot exceed 7 days');
+                    $('#endDate').val(new Date(startDate.getTime() + (7 * 24 * 60 * 60 * 1000)).toISOString().split('T')[0]);
+                }
+            });
+        });
+    </script>
+} 
